@@ -4,14 +4,14 @@
 
 ### *Un juego narrativo de exploración y combate en texto con arte ASCII*
 
-[![Jugar Ahora](https://img.shields.io/badge/🎮_JUGAR_AHORA-FF4500?style=for-the-badge&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/)
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://cristianbr05.github.io/cronicas-del-amuleto/)
+[![Jugar Ahora](https://img.shields.io/badge/🎮_JUGAR_AHORA-FF4500?style=flat&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/)
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://cristianbr05.github.io/cronicas-del-amuleto/)
 
 ---
 
-![Preview del juego](https://img.shields.io/badge/🌑_Fantasía_Oscura_|_Exploración_|_Combate_por_Turnos_|_Arte_ASCII-1a1a2e?style=for-the-badge)
+![Preview del juego](https://img.shields.io/badge/🌑_Fantasía_Oscura_|_Exploración_|_Combate_por_Turnos_|_Arte_ASCII-1a1a2e?style=flat)
 
 </div>
 
@@ -81,5 +81,35 @@ Construido íntegramente con tecnologías web nativas, **sin frameworks ni depen
 **[▶ JUGAR EN EL NAVEGADOR](https://cristianbr05.github.io/cronicas-del-amuleto/)**
 
 *¿Serás capaz de restaurar la luz en un mundo corrompido?*
+
+</div>
+
+---
+
+## 📖 Manual del juego
+
+¿Necesitas ayuda? Descarga el manual completo con todas las mecánicas, comandos y secretos del juego.
+
+[![Descargar Manual PDF](https://img.shields.io/badge/📖_Descargar_Manual-FF4500?style=flat&logoColor=white)](https://cristianbr05.github.io/cronicas-del-amuleto/Manual%20Cr%C3%B3nicas%20del%20Amuleto.pdf)
+
+---
+
+<div align="center">
+
+## 👤 Autor
+
+**Cristian Bellmunt Redón**
+
+*Desarrollador web & sistemas · ASIX · España*
+
+[![Instagram](https://img.shields.io/badge/@crizz__br-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/crizz_br)
+[![GitHub](https://img.shields.io/badge/cristianbr05-181717?style=flat&logo=github&logoColor=white)](https://github.com/cristianbr05)
+[![Jugar](https://img.shields.io/badge/🎮_Jugar_al_juego-1a1a2e?style=flat)](https://cristianbr05.github.io/cronicas-del-amuleto/)
+
+---
+
+*"En un mundo corrompido por la oscuridad, solo la luz del conocimiento puede guiar el camino."*
+
+![Made with](https://img.shields.io/badge/Hecho_con-❤️_y_JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 </div>
