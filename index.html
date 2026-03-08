@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crónicas del Amuleto</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Intro Overlay -->
+  <div id="intro-overlay" class="hidden">
+    <div id="intro-content">
+      <pre id="intro-ascii"></pre>
+      <div id="intro-text"></div>
+      <div id="skip-hint">Escribe 'skip' para omitir</div>
+    </div>
+  </div>
+
+  <!-- Main Artifact Container -->
+  <div id="artifact-container">
+    
+    <!-- Area 1: Main ASCII Scene (Top Left) -->
+    <div id="main-view">
+      <div id="scene-frame">
+        <pre id="ascii-scene"></pre>
+      </div>
+    </div>
+
+    <!-- Area 2: HUD (Right Column) -->
+    <div id="hud-panel">
+      
+      <!-- Vitals Module (Top) -->
+      <div class="hud-module" id="vitals-module">
+        <div class="module-header">CONSTANTES VITALES</div>
+        <div class="stat-row">
+          <span class="stat-label">INTEGRIDAD</span>
+          <span id="hud-hp">100/100</span>
+        </div>
+        <div class="bar-track">
+          <div id="hp-bar"></div>
+        </div>
+      </div>
+
+      <!-- Minimap Module (Center) -->
+      <div class="hud-module" id="minimap-module">
+        <div class="module-header">
+          <span>SISTEMA DE MAPADO</span>
+          <button id="audio-toggle" class="btn-icon" aria-label="Toggle Sound">🔇</button>
+        </div>
+        <div id="minimap-wrapper">
+          <pre id="minimap"></pre>
+        </div>
+        <div class="loc-info">
+          <div id="hud-loc">UBICACIÓN DESCONOCIDA</div>
+          <div id="hud-exits">RUTAS: --</div>
+        </div>
+      </div>
+
+      <!-- Inventory Module (Bottom) -->
+      <div class="hud-module" id="inventory-module">
+        <div class="module-header">INVENTARIO & EQUIPO</div>
+        <div class="equipment-grid">
+          <div class="eq-slot">
+            <span class="eq-label">ARMA</span>
+            <span id="eq-weapon" class="eq-val">Vacío</span>
+          </div>
+          <div class="eq-slot">
+            <span class="eq-label">ARMADURA</span>
+            <span id="eq-armor" class="eq-val">Vacío</span>
+          </div>
+        </div>
+        <div class="inv-separator"></div>
+        <ul id="inv-list">
+          <li>Contenedor vacío</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Area 3: Terminal (Bottom Full Width) -->
+    <div id="terminal-panel">
+      <div id="output"></div>
+      <form id="input-form">
+        <span id="prompt">&gt;</span>
+        <input type="text" id="cmd-input" autocomplete="off" autofocus spellcheck="false">
+      </form>
+    </div>
+
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
